@@ -13,28 +13,27 @@
             <div data-role="header">
                 <img src="img/escrita.png">
             </div>
-           <!-- <div data-role="collapsibleset" data-inset="true" id="collapsiblesetForFilter" data-input="#searchForCollapsibleSet">
+           <div data-role="collapsibleset" data-inset="true" id="collapsiblesetForFilter" data-input="#searchForCollapsibleSet">
                 <div data-role="collapsible" data-filtertext="Menu">
                     <h3>Menu</h3>
                     <ul data-role="listview" data-inset="false">
-                            <li><a href="ervilha.html">Ervilha 1969</a></li>
-                        <li><a href="ernesto.html">Ernest 1976</a></li>
+                            <li><a href="ervilha.html" data-role="button" data-transition="slide">Ervilha</a></li>
+                        <li><a href="ernesto.html" data-role="button" data-transition="slideup">Ernesto</a></li>
                     </ul>
                 </div>
-            </div>-->
+            </div>
            
-           <div data-role="content">
+           <!-- <div data-role="content">
                         <a href="ervilha.html" data-role="button" data-transition="slide">Ervilha</a>
                         <a href="ernesto.html" data-role="button" data-transition="slideup">Ernesto</a>
-          </div>
+          </div>-->
 
 
             <div data-role="ui-content" class="conteudo">
              
-                <h3>História</h3> 
-                <p>
-                    Grupo de amantes dos VW refrigerados a ar, criado com o intuído de unir as pessoas com essa paixão, para trocas de experiências, alegrias e bons momentos.
-                </p>
+                <a href="#popupPhotoLandscape" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Imagens</a>
+                <div data-role="popup" id="popupPhotoLandscape" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="img/ervilha.jpg" alt="Photo portrait">
             </div>
         <div data-role="footer">
             <small class="ui-bar" style="text-align: center">&#169; 2016 Rafael Herbst &#8212; Biohazard</small>
