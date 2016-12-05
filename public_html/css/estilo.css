@@ -7,6 +7,7 @@ body{
 }
 .conteudo{
 	text-align: center;
+        padding: 1%;
 }
 .rodape{
     width: 100%;
@@ -17,7 +18,4 @@ body{
 }
 .cabecalho{
     margin: 0 auto;
-}
-.rodape{
-    left: 1em;
 }
