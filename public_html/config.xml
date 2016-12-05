@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
-id="br.com.rafaelherbst.cenourapp"
+id="br.com.rafaelherbst.biohazardapp"
 version="1.0.0">
 
 <name>
-Só de Cenoura
+Biohazard VW Grupo
 </name>
 
 <description>
-Menu do restaurante Só de Cenoura.
+App de um grupo de carros antigos
 </description>
 
 <author href="http://google.com" email="rafael7152@gmail.com">
@@ -22,10 +22,9 @@ Rafael Herbst
 
 <preference name="phonegap-version" value="cli-6.3.0" />
 
-<icon src="icon.png" />
+<icon src="img/icone.png" />
 
 <gap:platform name="android" />
-<gap:splash src="splash.png" />
 
 
 </widget>
